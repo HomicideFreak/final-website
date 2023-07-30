@@ -373,4 +373,15 @@ body{
     .see-more-link{
         font-size: 4vw;
     }
+    .left-arrow{
+        border-width: 0 1vw 1vw 0;
+        padding: 1vw;
+    }
+    .right-arrow{
+        border-width: 0 1vw 1vw 0;
+        padding: 1vw;
+    }
+    .see-more-offer-container{
+        gap: 2vw;
+    }
 }
