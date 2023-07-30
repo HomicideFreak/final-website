@@ -123,6 +123,9 @@
     .nav-list.active{
         left:0;
     }
+    .logo-img{
+        height:80px;
+    }
 
 }
 
