@@ -1,0 +1,128 @@
+.header-container{
+    position:fixed;
+    display: flex;
+    background-color: #262626;
+    height: 120px;
+    top:0;
+    left:0;
+    right:0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    z-index: 2;
+}
+
+
+.logo-box{
+    display: flex;
+    margin-left: 50px;
+}
+
+.logo-img{
+    height:110px;
+}
+
+.header-nav{
+    display:flex;
+    padding: 0 24px;
+}
+
+.nav-list{
+    padding: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:60px;
+}
+
+.list-element{
+    list-style: none;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    transition: 0.4s color;
+}
+
+.nav-link:hover{
+    color:rgb(255, 218, 53);
+}
+
+.nav-link:active{
+    color:rgb(255, 218, 53);
+}
+
+.hamburger{
+    display: none;
+    margin-right: 24px;
+    cursor:pointer;
+}
+
+.bar{
+    display: block;
+    background-color: white;
+    height: 3px;
+    border-radius: 3px;
+    width: 40px;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media screen and (width < 1150px){
+    .header-container{
+        font-size:1.1rem;
+    }
+    .nav-list{
+        gap:40px;
+    }
+}
+
+@media screen and (width < 950px){
+    .header-container{
+        font-size:1rem;
+    }
+    .nav-list{
+        gap:30px;
+    }
+}
+
+@media screen and (width < 870px){
+    .hamburger{
+        display:block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform:translateY(11px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform:translateY(-11px) rotate(-45deg);
+    }
+    
+    .nav-list{
+        position:fixed;
+        left:-100%;
+        top:120px;
+        gap:0;
+        flex-direction: column;
+        background-color: #262626;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        margin: 0;
+    }
+
+    .list-element{
+        margin: 16px 0;
+    }
+
+    .nav-list.active{
+        left:0;
+    }
+
+}
+
