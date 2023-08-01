@@ -82,6 +82,7 @@ body{
     border-radius: 20px;
     padding-left: 1vw;
     color: white;
+    resize: none;
 }
 
 .submit-button{
@@ -113,28 +114,37 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .contact-form{
-        width: 50%;
-    }
-}
-
-@media screen and (width < 870px){
     .left-area h1{
-        font-size: 3vw;
+        font-size: 4vw;
         margin: 0;
     }
     
     .left-area p{
-        font-size: 2vw;
+        font-size: 3vw;
         margin: 0;
     }
     
     .left-area h2{
-        font-size: 3vw;
+        font-size: 4vw;
         margin: 0;
     }
+
+    .left-area{
+        line-height: 5vw;
+    }
+    .contact-form{
+        width: 50%;
+    }
+    .right-area{
+        width: 100%;
+    }
+    
+    .contact-form{
+        width: 75%;
+    }
+
     .form-element{
-        font-size: 2.5vw;
+        font-size: 2.2vw;
         padding: 0.6vw;
         border-radius: 100px;
         padding-left: 1vw;
@@ -142,7 +152,9 @@ body{
     }
     
     .message-box{
-        font-size: 2.5vw;
+        font-size: 2.2vw;
+        padding: 1vw;
+        
     }
 
     .submit-button{
@@ -151,6 +163,57 @@ body{
 
     .contact-form h1{
         font-size: 3vw;
+    }
+}
+
+@media screen and (width < 870px){
+    .left-area h1{
+        font-size: 4vw;
+        margin: 0;
+    }
+    
+    .left-area p{
+        font-size: 3vw;
+        margin: 0;
+    }
+    
+    .left-area h2{
+        font-size: 4vw;
+        margin: 0;
+    }
+
+    .left-area{
+        line-height: 5vw;
+    }
+
+    .right-area{
+        width: 100%;
+    }
+    
+    .contact-form{
+        width: 75%;
+    }
+
+    .form-element{
+        font-size: 3vw;
+        padding: 0.6vw;
+        border-radius: 100px;
+        padding-left: 1vw;
+        color: white;
+    }
+    
+    .message-box{
+        font-size: 3vw;
+        padding: 1vw;
+        
+    }
+
+    .submit-button{
+        font-size: 3vw;
+    }
+
+    .contact-form h1{
+        font-size: 4vw;
     } 
 }
 
