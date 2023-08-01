@@ -4,7 +4,7 @@ body{
 
 .main-container{
     display:flex;
-    margin: 150px 5% 3.5vw 5%;
+    margin: 150px 5% 1vw 5%;
     background-color: #262626;
     padding: 1%;
     border-radius: 10px;
