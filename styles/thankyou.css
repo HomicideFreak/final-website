@@ -17,6 +17,16 @@ body{
     flex-direction: column;
 }
 
+.back-link{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.back-link:hover{
+    color: orange;
+}
+
 .logo-img{
     height: 15vw;
 }
