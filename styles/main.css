@@ -237,7 +237,7 @@ body{
     padding: 2%;
     font-size: 1.3vw;
     font-weight: bold;
-    border: #262626 0.2vw solid;
+    border: #262626 2px solid;
     border-radius: 100px;
     box-shadow: 0.6vw 0.6vw 1vw black;
     animation: see-more-animation 0.8s alternate infinite;
@@ -304,13 +304,14 @@ body{
     .logo-in-text{
         height: 25vw;
     }
+    .main-text-container{
+        line-height: 5.5vw;
+    }
     .main-text-container h2{
-        font-size: 3vw;
-        line-height: 5vw;
+        font-size: 4.5vw;
     }
     .main-text-container p{
-        font-size: 2.5vw;
-        line-height: 3vw;
+        font-size: 3vw;
     }
     .main-text-container-link{
         font-size: 3vw;
@@ -348,23 +349,25 @@ body{
     }
     .offer-info-1{
         width: 100%;
+        line-height: 4vw;
     }
     .offer-info-1 h1{
-        font-size: 3vw;
+        font-size: 4vw;
         text-align: center;
     }
     .offer-info-1 li{
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .offer-info-2{
         width: 100%;
+        line-height: 4vw;
     }
     .offer-info-2 h1{
-        font-size: 3vw;
+        font-size: 4vw;
         text-align: center;
     }
     .offer-info-2 li{
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .vertical-bar{
         width: 100%;
