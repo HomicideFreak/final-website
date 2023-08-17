@@ -50,6 +50,13 @@ body{
     margin: 0;
 }
 
+.main-text-container h1{
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
 .main-text-container p{
     font-size: 1.1vw;
     color: white;
@@ -175,7 +182,7 @@ body{
     color: white;
 }
 
-.offer-info-1 h1{
+.offer-info-1 h2{
     font-size: 1.5vw;
 }
 
@@ -195,7 +202,7 @@ body{
     color: white;
 }
 
-.offer-info-2 h1{
+.offer-info-2 h2{
     font-size: 1.5vw;
 }
 
