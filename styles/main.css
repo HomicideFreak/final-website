@@ -317,6 +317,9 @@ body{
     .main-text-container h2{
         font-size: 4.5vw;
     }
+    .main-text-container h1{
+        font-size: 4.5vw;
+    }
     .main-text-container p{
         font-size: 3vw;
     }
@@ -358,7 +361,7 @@ body{
         width: 100%;
         line-height: 4vw;
     }
-    .offer-info-1 h1{
+    .offer-info-1 h2{
         font-size: 4vw;
         text-align: center;
     }
@@ -369,7 +372,7 @@ body{
         width: 100%;
         line-height: 4vw;
     }
-    .offer-info-2 h1{
+    .offer-info-2 h2{
         font-size: 4vw;
         text-align: center;
     }
